@@ -1,0 +1,264 @@
+body{
+    width: 1700px;
+    font-family: sans-serif,Georgia, serif;
+    color: black;
+    padding: 0;
+    background: white;
+    line-height: 1rem;
+    margin: auto;
+}
+#page .container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    list-style: none;
+}
+.subscribe_btn{
+    background: #f1c232;
+}
+
+#page #section_header_2_dark{
+    background: #333333;
+    height: 130px;
+}
+ .navbar-header{
+     padding-top: 50px;
+     width: 50%;
+     float: left;
+ }
+ .navbar-right{
+     padding-top: 30px;
+     float: right;
+     display: flex;
+ }
+
+ .propClone{
+     color: #ffffff;
+     font-weight: 600;
+     font-size: 20px;
+     padding: 10px;
+ }
+#page #section_ecourse_7 .editContent{
+    color: #bdbdbd;
+}
+#page #section_header_2_dark .text_span{
+    color: orange;
+}
+#page #section_university_5 .text-style {
+    color: #bebebe;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#page #section_university_5 .title-style {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#page #submit_btn_6{
+    width: 455px;
+    font-size: 30px;
+    background: #7cc576;
+}
+#page #section_university_5 .omega .hidden_pix_6{
+    font-size: 20px;
+}
+option{
+    font-size: 20px;
+}
+#page #section_university_5 .subject_st{
+    line-height: 20px;
+    font-size: 20px;
+    color: #bcbcbc;
+}
+ /*.icon-item{*/
+ /*    float: right;*/
+ /*    padding: 10px;*/
+ /*}*/
+ .section_video{
+     width: 1700px;
+ }
+ video{
+     filter: brightness(50%);
+     width: 100%;
+ }
+/* ----*/
+
+#page #section_university_5 .alpha{
+    float: left;
+    width: 50%;
+}
+#page #section_university_5 .alpha >p{
+    color: #eeeeee;
+}
+
+#page #section_university_5 .omega .pix_builder_bg{
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    float: right;
+    border-radius: 5px;
+    background: #ebeaea;
+    border: 2px solid white;
+}
+
+.psingle_item{
+    float: left;
+    display: flex;
+}
+#pixfort_university_6{
+    height: 300px;
+}
+.icon_st{
+    /*float: left;*/
+    padding-right: 20px;
+}
+.title_st{
+    font-size: 30px;
+}
+.zone_left {
+    padding: 50px;
+}
+
+
+#page #section_ecourse_7 {
+    float: left;
+}
+.send_btn {
+    border: 2px solid black;
+}
+#page #section_university_5 .name{
+    width: 100%;
+}
+#section_university_5 .alpha .title_st{
+    color: black;
+}
+.subject_st{
+    color: black;
+}
+/*--
+/*-------------*/
+#page #section_ecourse_7{
+    width: 100%;
+    height: 100px;
+    background: #f6f6f6;
+}
+
+#page #section_ecourse_7 .alpha{
+    font-size: 20px;
+    padding-top: 40px;
+    float: left;
+}
+#page #section_ecourse_7 .omega{
+    /*width: 500px;*/
+    text-align: right;
+    float: right;
+}
+#page #section_ecourse_7 .likes_st{
+    font-size: 20px;
+}
+#page #section_ecourse_7 .slow_fade{
+    /*border: 2px solid #ffffff;*/
+    padding: 10px;
+}
+
+#page #section_pix_4 .pix_text{
+    color: white;
+}
+#page #section_pix_4 .clearfix{
+    text-align: center;
+}
+#page #section_pix_4 .title_style{
+    margin-left: 90px;
+    font-size: 60px;
+    padding: 50px;
+}
+#page #section_pix_4 .contact_form{
+    font-size: 30px;
+}
+#page #section_pix_4 .note_st {
+    margin-left: 120px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#page #section_pix_4 .subtitle_style{
+    text-align: center;
+    width: 800px;
+    line-height: 25px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+}
+#page #section_pix_4 .email_subscribe{
+    border-radius: 5px;
+    margin-left: 370px;
+    width: 443px;
+    border: 20px solid black
+}
+button, input{
+    border: 2px solid black;
+    font-size: 20px;
+}
+#page #section_pix_4 .pix_text{
+    /*font-size: 30px;*/
+    /*width: 200px;*/
+}
+
+
+#page #section_ecourse_7 .alpha .pixfort_st{
+    font-weight: 800;
+    color: #0081ff;
+}
+/*-----*/
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.context_style{
+    position: absolute;
+    /*top: 80%;*/
+    /*right: 40%;*/
+    transform: translate(0%,-245%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
