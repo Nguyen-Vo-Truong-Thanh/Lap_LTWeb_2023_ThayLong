@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript Example</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div id="content" style="padding: 20px; background: #ddd; color: black; margin: 40px 0px; text-align:center">
+            background
+        </div>
+
+        <input class="bg-danger" type="button" id="btn1" value="red"/>
+        <input class="bg-primary" type="button" id="btn2" value="blu"/>
+        <input type="button" id="btn3" value="while"/>
+        <input class="btn-success" type="button" id="btn4" value="green"/>
+        <input class="bg-dark" type="button" id="btn5" value="black"/>
+
+        <script language="javascript">
+
+            var button1 = document.getElementById("btn1");
+            var button2 = document.getElementById("btn2");
+            var button3 = document.getElementById("btn3");
+            var button4 = document.getElementById("btn4");
+            var button5 = document.getElementById("btn5");
+            var div = document.getElementById('content');
+
+            button1.onclick = function () {
+                div.style.background = "red";
+            };
+
+            button2.onclick = function () {
+                div.style.background = "blue";
+                div.style.color="white";
+            };
+            button3.onclick = function () {
+                div.style.background = "white";
+                div.style.color = "black";
+            };
+            button4.onclick = function () {
+                div.style.background = "green";
+                div.style.color="black";
+            };
+            button5.onclick = function () {
+                div.style.background = "black";
+                div.style.color="white";
+            };
+        </script>
+    </body>
+</html>
