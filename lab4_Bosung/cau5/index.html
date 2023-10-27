@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #image {
+            width: 300px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            border-radius: 360px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <img id="image" src="./hinh-anh-doremon-tha-bong-bay.jpg" />
+    <script>
+        function AnimateRotate(angle) {
+            var $elem = $('#image');
+            setInterval(function() {
+
+                $({
+                    deg: 0
+                }).animate({
+                    deg: angle
+                }, {
+                    duration: 2000,
+                    step: function(now) {
+                        $elem.css({
+                            transform: 'rotate(' + now + 'deg)'
+                        });
+                    }
+                });
+            }, 2000);
+        }
+
+
+        AnimateRotate(15);
+    </script>
+</body>
+
+</html>

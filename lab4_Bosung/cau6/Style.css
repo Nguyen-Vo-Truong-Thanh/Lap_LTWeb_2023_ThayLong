@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("image/web.jpg") no-repeat center;
+    background-size: cover;
+    font-family: Arial;
+}
+
+.login-wrapper {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    max-width: 350px;
+    padding: 80px 40px 40px;
+    background: #f6f2f2;
+    border-radius: 10px;
+}
+
+.form:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.form h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #720b72;
+    font-weight: bold;
+}
+
+.form .input-group {
+    position: relative;
+}
+
+.form .input-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: white;
+    color: inherit;
+    border: 1px solid #ffffff;
+    outline: none;
+}
+
+.form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 30px;
+    padding: 10px 10px;
+    font-size: .9rem;
+    font-weight: bold;
+    pointer-events: none;
+    transition: .4s ease-out;
+    color: #720b72;
+}
+
+.form .input-group input:focus+label,
+.form .input-group input:valid+label {
+    transform: translateY(-25px);
+    color: #720b72;
+    font-size: .7rem;
+}
+
+.submit-button {
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    color: white;
+    background: #bd59d7;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    margin-top: 30px;
+}
+
+.form h6 {
+    color: #6c757d;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.container .button {
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+    border: white;
+    background: url("image/button.png") no-repeat center;
+    margin-top: 20px;
+    margin-left: 64px;
+    margin-right: 12px;
+}
+
+.container .button1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: white;
+    background: url("image/button2.jpeg") no-repeat center;
+}
+
+.register {
+    color: #720b72;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper .error {
+    display: none;
+}

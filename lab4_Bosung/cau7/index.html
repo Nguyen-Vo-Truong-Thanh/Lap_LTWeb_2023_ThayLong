@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .show {
+        float: inline;
+    }
+    
+    button {
+        margin: 10px;
+        width: 115px;
+        height: 50px;
+        font-weight: bold;
+        border: none;
+        background: #2ba2e2ee;
+        color: white;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <center>
+            <div class="show"></div>
+
+
+        </center>
+
+    </div>
+    <script>
+        const Float = document.querySelector('.show')
+        let count = 1
+
+        function createManyBt() {
+            const arr = [64];
+            for (let i = 0; i <= 63; i++) {
+                arr[i] = i + 1;
+            }
+            let n = arr.length;
+            for (let i = 0; i < n; i++) {
+                let m = Math.floor(Math.random() * 64);
+                let c = Math.floor(Math.random() * 64);
+                let temp = arr[m];
+                arr[m] = arr[c];
+                arr[c] = temp;
+            }
+
+            let textHTML = '';
+            for (let i = 0; i < arr.length; i++) {
+                let ar = arr[i];
+                textHTML += '<button onclick="clickBT(this)">' + ar + '</button>'
+            }
+            Float.innerHTML = textHTML
+        }
+
+        createManyBt()
+
+        function clickBT(e) {
+            if (e.innerHTML == count) {
+                e.style.visibility = 'hidden'
+                count++;
+            } else {
+                alert('you choose wrong sequece')
+            }
+        }
+    </script>
+</body>
+
+
+</html>

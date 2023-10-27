@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Style.css">
+
+
+</head>
+
+<body>
+    <div class="login-wrapper">
+        <form action="" class="form">
+            <h2>Sign In</h2>
+            <div class="input-group">
+                <input type="text" name="loginUser" id="loginUser" required>
+                <label for="loginUser">Username or email</label>
+                <span class="error" id="error1">Invalid</span>
+            </div>
+            <div class="input-group">
+                <input type="password" name="loginPassword" id="loginPassword" required>
+                <label for="loginPassword">Password</label>
+                <span class="error" id="error2">Invalid</span>
+            </div>
+            <input id="submit" onclick="checkValid()" type="submit" value="Sign in" class="submit-button">
+            <h6>or login with</h6>
+            <div class="container">
+                <input type="button" value=" " class="button" />
+                <input type=button value=" " class="button1">
+            </div>
+            <a class="register">Sign up</a>
+        </form>
+    </div>
+
+
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        var a = $("#loginUser").val();
+        var b = $("#loginPassword").val();
+        if (a == "") {
+            $(document).ready(function() {
+                $("#submit").click(function() {
+                    $("#error1").css({
+                        "display": "block",
+                        "color": "red"
+                    });
+                    $('#loginUser').css({
+                        "border": "2px solid red"
+                    });
+                })
+            })
+
+        }
+        if (b == "") {
+            $(document).ready(function() {
+                $("#submit").click(function() {
+                    $("#error2").css({
+                        "display": "block",
+                        "color": "red"
+                    });
+                    $('#loginPassword').css({
+                        "border": "2px solid red"
+                    });
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
